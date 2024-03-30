@@ -1,3 +1,4 @@
+/* Nav Bar */
 nav {
     background-color: beige;   
 }
@@ -5,16 +6,43 @@ nav {
 nav div ul li {
     margin-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2px;
 }
 nav div ul li a {
     color: black;
+    padding-right: 5px;
+}
+/* Header */
+header {
+    background-color: #E0FFFF;
+    padding: 20px 0;
 }
 
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    display: block;
+}
+
+header p {
+    display: block;
+    margin-left: 10px;
+}
+
+header ul li{
+    display: inline;
+    padding-right: 10px;
+
+}
+
+/* Body */
 body{
     margin: 0;
     overflow-x: hidden;
 }
 
+
+/* Footer */
 footer {
     background: black;
     padding: 20px 0;
