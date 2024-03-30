@@ -1,0 +1,84 @@
+/* Nav Bar */
+nav {
+    background-color: beige;   
+}
+
+nav div ul li {
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 2px;
+}
+nav div ul li a {
+    color: black;
+    padding-right: 5px;
+}
+/* Header */
+header {
+    background-color: #E0FFFF;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    display: block;
+}
+
+header p {
+    display: block;
+    margin-left: 10px;
+}
+
+header ul li{
+    display: inline;
+    padding-right: 10px;
+
+}
+
+/* Body */
+body{
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+/* Footer */
+footer {
+    background: black;
+    padding: 20px 0;
+
+}
+
+footer .row .col a {
+    color: white;
+    font-size:0.8em;
+    padding: 10px;
+}
+
+footer .row .col a:hover {
+    color: gray; 
+}
+
+
+footer .row ul li {
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+
+}
+footer .row ul li a {
+    text-decoration: none;
+}
+
+footer .row {
+    margin: 10px 0;
+    color: gray;
+    
+}
+footer .row p {
+    text-align: center;
+    color: gray;
+}
+footer ul {
+    margin: 10px 0;
+}
