@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 800;
     display: block;
     color: #6A5ACD;
@@ -49,6 +49,9 @@ body{
     overflow-x: hidden;
 }
 
+body section {
+    border: 10px solid black;
+}
 
 /* Footer */
 footer {
